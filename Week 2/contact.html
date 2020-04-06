@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+
+    <!-- Boostrap CSS Link-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <!-- Local Style.css File-->
+    <link rel="stylesheet" href="css/style.css" />
+
+  </head>
+  <body>
+      <!-- Navbar for Contact page-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <a class="navbar-brand" href="index.html">Will Hitch</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">About Me</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="contact.html"
+              >Contact<span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Container For Contact page-->
+    <div class="container">
+        <!-- Header Row-->
+      <div class="row">
+        <div class="col py-md-2">
+          <h1>Contact</h1>
+        </div>
+      </div>
+      <!-- Github Card-->
+      <div class="row offset-2">
+          <div class="col-md-6 col-lg-4 p-1 m-1">
+            <div class="card text-center" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">Github</h5>
+                <p class="text-muted">
+                  View my current projects and applications
+                </p>
+                <a href="https://github.com/willhitch" class="btn btn-dark">View Github</a>
+              </div>
+            </div>
+          </div>
+          <!-- Stacked Overflow Card-->
+          <div class="col-md-6 col-lg-4 p-1 m-1">
+            <div class="card text-center" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">Stacked Overflow</h5>
+                <p class="text-muted">See my Stacked Overflow profile and message me directly</p>
+                <a href="https://stackexchange.com/users/17862443/willhitch" class="btn btn-primary">View Stacked Overflow</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Instagram Card-->
+        <div class="row offset-2">
+          <div class="col-lg-4 p-1 m-1">
+            <div class="card text-center" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">Instagram</h5>
+                <p class="text-muted">
+                  Look at my Instagram, I love to travel!
+                </p>
+                <a href="https://www.instagram.com/willywillycool/" class="btn btn-success">Go to Instagram</a>
+              </div>
+            </div>
+          </div>
+          <!-- Email Card-->
+          <div class="col-lg-4 p-1 m-1">
+            <div class="card text-center" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">Email</h5>
+                <p class="text-muted">
+                  I respond fastest to email, click below to get connected
+                </p>
+                <a href="mailto:hitch.will@gmail.com?subject=Hello!" class="btn btn-info">Email Me</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
